@@ -32,6 +32,11 @@
     <version>2.6.1</version>
 </dependency>
 <dependency>
+ 	<groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+ 	<version>8.0.19</version>
+</dependency>
+<dependency>
     <groupId>org.glassfish.hk2</groupId>
     <artifactId>hk2-locator</artifactId>
     <version>2.6.1</version>
