@@ -9,7 +9,7 @@ public class DatabaseConnection {
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
     	 Class.forName("com.mysql.cj.jdbc.Driver");
     	 //add local user name password to connect database
-    	 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/productstore","root","1998");
+    	 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cart","root","");
     	 
     	 return con;
     }
